@@ -35,6 +35,7 @@ h1.entry-title {
 
 /* Footer Styling */
 .footer-small {
+  font-style: italic;
   white-space: nowrap;
 }
 
@@ -55,21 +56,12 @@ h1.entry-title {
   color: #e2f633 !important;
 }
 
-#dev_link {
-  color: #e2f633;
-  font-weight: 600;
-}
-
-#dev_link:hover {
-  text-decoration: underline #e2f633 solid 1px;
-}
-
 .footer-links {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  width: fit-content;
+  width: max-content;
 }
 
 .footer-links h4 {
@@ -79,9 +71,19 @@ h1.entry-title {
 
 .footer-links a {
   color: #fff;
+  white-space: nowrap;
 }
 
 .footer-links a:hover,
 .footer-links a.active {
   color: #e2f633;
+}
+
+#dev_link {
+  color: #e2f633;
+  font-weight: 600;
+}
+
+#dev_link:hover {
+  text-decoration: underline #e2f633 solid 1px;
 }

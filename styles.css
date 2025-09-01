@@ -33,6 +33,16 @@ h1.entry-title {
   display: none;
 }
 
+/* Accordion Extra Styling */
+summary.e-n-accordion-item-title {
+  transition: all 400ms ease-in-out;
+}
+
+.accordion-value-texts {
+  color: #fff;
+  font-weight: 500;
+}
+
 /* Footer Styling */
 .footer-small {
   font-style: italic;

@@ -33,6 +33,12 @@ h1.entry-title {
   display: none;
 }
 
+/* Submenu Stylng */
+.sub-menu .menu-link {
+  font-weight: 600;
+  margin: 10px 0;
+}
+
 /* Accordion Extra Styling */
 summary.e-n-accordion-item-title {
   transition: all 400ms ease-in-out;

@@ -33,6 +33,22 @@ h1.entry-title {
   display: none;
 }
 
+.entry-header div.entry-meta {
+  margin-top: 20px;
+}
+
+span.ast-blog-single-element a {
+  color: #f78916;
+}
+
+span.ast-blog-single-element a:hover {
+  color: #e2f633;
+}
+
+h2.entry-title a {
+  color: #168d3c;
+}
+
 /* Submenu Stylng */
 .sub-menu .menu-link {
   font-weight: 600;
